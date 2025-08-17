@@ -49,8 +49,8 @@ interface ConfigPanelProps {
 const ConfigPanel: React.FC<ConfigPanelProps> = ({
   operatorConfig,
   setOperatorConfig,
-  basePity,
-  setBasePity,
+  // basePity,
+  // setBasePity,
   simulationCount,
   setSimulationCount,
   isSimulating,
