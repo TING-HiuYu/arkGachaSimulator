@@ -158,7 +158,7 @@ const ConfigPanel: React.FC<ConfigPanelProps> = ({
           )}
         </Form.Item>
 
-        <Form.Item label="已累计未出6星抽数">
+        {/* <Form.Item label="已累计未出6星抽数">
           <InputNumber
             min={0}
             max={99}
@@ -170,7 +170,7 @@ const ConfigPanel: React.FC<ConfigPanelProps> = ({
           <Text type="secondary" style={{ fontSize: '12px' }}>
             明日方舟50抽后开始增加概率，99抽必出6星
           </Text>
-        </Form.Item>
+        </Form.Item> */}
 
         <Divider />
 
