@@ -152,7 +152,7 @@ const ConfigPanel: React.FC<ConfigPanelProps> = ({
           />
           {simulationCount > 500000 && (
             <Text type="warning" style={{ fontSize: '12px', marginTop: '4px', display: 'block' }}>
-              你设太大有可能内存不足，程序是本地运行的，不会对服务器产生影响 <br />
+              你设太大有可能内存不足，程序是本地运行的，所以说别想着炸服务器 <br />
               建议开启GPU加速以提升性能
             </Text>
           )}
