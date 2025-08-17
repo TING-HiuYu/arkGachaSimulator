@@ -1,0 +1,192 @@
+/* 主应用样式 */
+.app-layout {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.app-content {
+  padding: 24px;
+  background: #f0f2f5;
+  min-height: calc(100vh - 64px);
+}
+
+/* 卡片样式优化 */
+.ant-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.ant-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* 统计数字样式 */
+.ant-statistic-content {
+  font-weight: bold;
+}
+
+.ant-statistic-title {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+/* 表格样式优化 */
+.ant-table-thead > tr > th {
+  background-color: #fafafa;
+  font-weight: bold;
+}
+
+/* 进度条样式 */
+.ant-progress-bg {
+  border-radius: 10px;
+}
+
+/* 按钮样式 */
+.ant-btn-primary {
+  background: linear-gradient(135deg, #1890ff 0%, #096dd9 100%);
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(24, 144, 255, 0.2);
+}
+
+.ant-btn-primary:hover {
+  background: linear-gradient(135deg, #40a9ff 0%, #1890ff 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(24, 144, 255, 0.3);
+}
+
+/* 标签样式 */
+.ant-tag {
+  border-radius: 12px;
+  font-size: 12px;
+  padding: 2px 8px;
+  margin: 2px;
+}
+
+/* 输入框样式 */
+.ant-input,
+.ant-input-number {
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  transition: all 0.3s ease;
+}
+
+.ant-input:focus,
+.ant-input-number:focus {
+  border-color: #1890ff;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+/* 选择器样式 */
+.ant-select .ant-select-selector {
+  border-radius: 6px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .app-content {
+    padding: 16px;
+  }
+  
+  .app-header h2 {
+    font-size: 18px;
+  }
+}
+
+/* 图表容器样式 */
+.chart-container {
+  padding: 16px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 自定义滚动条 */
+.ant-table-body::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.ant-table-body::-webkit-scrollbar-thumb {
+  background-color: #d9d9d9;
+  border-radius: 3px;
+}
+
+.ant-table-body::-webkit-scrollbar-thumb:hover {
+  background-color: #bfbfbf;
+}
+
+/* 加载动画优化 */
+.ant-spin-dot {
+  font-size: 24px;
+}
+
+.ant-spin-dot-item {
+  background-color: #1890ff;
+}
+
+/* 工具提示样式 */
+.custom-tooltip {
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 12px;
+  border: none;
+}
+
+/* 说明文字样式 */
+.description-text {
+  color: #666;
+  font-size: 12px;
+  line-height: 1.4;
+  margin-top: 8px;
+}
+
+/* 分隔线样式 */
+.ant-divider {
+  margin: 16px 0;
+  border-color: #e8e8e8;
+}
+
+/* 成功状态颜色 */
+.status-success {
+  color: #52c41a;
+}
+
+/* 警告状态颜色 */
+.status-warning {
+  color: #faad14;
+}
+
+/* 危险状态颜色 */
+.status-danger {
+  color: #ff4d4f;
+}
+
+/* 卡片标题样式 */
+.ant-card-head-title {
+  font-weight: bold;
+  color: #262626;
+}
+
+/* 空状态样式 */
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #999;
+}
+
+.empty-state h4 {
+  color: #666;
+  margin-bottom: 8px;
+}
