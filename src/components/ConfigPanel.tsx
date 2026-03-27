@@ -72,7 +72,7 @@ const ConfigPanel: React.FC<ConfigPanelProps> = ({
 
   // 预设配置
   const presetConfigs: { [key: string]: OperatorConfig } = {
-    "联合毒池": {
+    "联合寻访": {
       "干员1": { weight: 1, target: 6 },
       "干员2": { weight: 1, target: 0 },
       "干员3": { weight: 1, target: 0 },
